@@ -1,0 +1,8 @@
+section.login div.input_check-container{
+    
+    margin-bottom: 1rem;
+}
+
+section.login{
+    max-width: 375px;
+}

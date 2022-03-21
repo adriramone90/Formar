@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width:50%;
+            height: fit-content;
+            border: thin solid black;
+            padding: 1rem;
+        }
+        .formularios{
+            display:flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h2>FORMULARIOS</h2>
+    <form action="data.html" method="get">
+
+        <h3>/*INPUTS*/</h3>
+        <label for="inputName">Nombre y apellido</label>
+        <input type="text" name="nombre" id="inputName" placeholder="Ingrese su nombre">
+
+        <label for="inputDNI">DNI</label>
+        <input type="number" name="dni" id="inputDNI" required>
+
+        <label for="inputTEL">Telefono</label>
+        <input type="tel" name="tel" id="inputTEL">
+
+        <label for="inputEMAIL">Email</label>
+        <input type="email" name="email" id="inputEMAIL">
+
+        <label for="inputTEL">Telefono</label>
+        <input type="tel" name="tel" id="inputTEL">
+
+        <label for="inputAVATAR">Foto de perfil</label>
+        <input type="file" name="avatar" id="inputAVATAR">
+        
+        <label for="inputFECHA">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="inputFECHA">
+
+        <label for="inputCOLOR">Elija el color</label>
+        <input type="color" name="color" id="inputCOLOR">
+
+        <label for="inputMENSAJE">Deje su mensaje</label>
+        <textarea name="msj" id="inputMENSAJE" cols="30" rows="10"></textarea>
+
+        <h3>/*SELECT*/</h3>
+        <label for="selectGENRE">Género</label>
+        <select name="genre" id="selectGENRE">
+            
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="" selected hidden>Elige tu genero</option>
+            <option value="NB">No Binario</option>
+        </select>
+
+        <h3>/*CHECKBOX*/</h3>
+        <div class="formularios">
+            <h4>Hobbies</h4>
+            <label for="series">Mirar Series
+                <input type="checkbox" name="hobbies" value="series" checked>
+            </label>
+            
+
+            <label for="dibujar">Dibujar
+                <input type="checkbox" name="hobbies" value="dibujar">
+            </label>
+            
+
+            <label for="programar">Programar
+                <input type="checkbox" name="hobbies" value="programar">
+            </label>
+
+            <hr>
+
+            <h4>Medios de pagos</h4>
+
+            <label for="series">MercadoPago
+                <input type="radio" name="pago" value="mercadopago" checked>
+            </label>
+
+            <label for="series">Efectivo
+                <input type="radio" name="pago" value="efectivo">
+            </label>
+
+            <label for="series">Tarjeta
+                <input type="radio" name="pago" value="tarjeta">
+            </label>
+
+
+        </div>  
+
+        <button type="submit">Enviar datos!</button>
+        <!--Enviar por get, enviar por medio de la url-->
+        <button type="reset">Limpiar formulario</button>
+    </form>
+</body>
+</html>

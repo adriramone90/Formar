@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(1, 99, 99);
+    height: 100vh;
+}
+
+div.box1{
+    background-color: blue;
+    height: 300px;
+    width: 50%;
+}
+
+div.box1 article{
+    background-color: aquamarine;
+    height: 150px;
+    width: 50%;
+}
+
+
+
+div.box2 article h2{
+    font-size: 1em;
+    
+}
+
+div.box2 article p{
+    font-size:0.8em;
+}
+
+div.box2 article p{
+    width: 3em;
+    height:4em;
+    background-color: blueviolet;
+}

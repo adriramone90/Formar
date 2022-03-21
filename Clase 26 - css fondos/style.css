@@ -1,0 +1,38 @@
+body{
+
+    /*Fondos lisos*/
+    /*background-color: aqua;*/
+    
+    /*Fondo gradiente*/
+    /*background:linear-gradient(45deg, red, white)*/
+
+    /*fondo de imagen*/
+    background-image: url("imagen.jpg");
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: contain; /*usar con height:100vh para adaptar a pantalla*/
+    height: 100vh; /*usar con background-size: contain para adaptar a pantalla*/
+}
+
+.card1{
+    width: 20vh;
+    height: 20vh;
+    /*background-color: antiquewhite;*/
+    background-image: url("dino1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card2{
+    width: 20vh;
+    height: 20vh;
+    /*background-color: aqua;*/
+    background-image: url("dino2.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+

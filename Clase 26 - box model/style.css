@@ -1,0 +1,28 @@
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+}
+
+div#a {
+    border: solid 5px black;
+    padding: 25px;
+}
+
+.content{
+    height: 100%;
+    background-color: blue;
+}
+
+div#b {
+    box-sizing: border-box;
+    border: solid 5px black;
+    padding: 25px;
+    
+}
+
+div#c {
+    
+}

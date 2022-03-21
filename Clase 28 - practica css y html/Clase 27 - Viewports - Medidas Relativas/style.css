@@ -1,0 +1,49 @@
+html {
+    font-size:62.5%;
+}
+
+body {
+    background-color: aqua;
+    height: 100vh;
+}
+
+div.box-1 {
+    background-color: blue;
+    height: 300px;
+    width: 50%;
+}
+
+div.box-1 article {
+    background-color: aquamarine;
+    height: 150px;
+    width: 50%;
+}
+
+div.box-2 {
+    background-color: bisque;
+    width: 50vw;
+}
+
+div.box-2 h2 {
+    font-size: 1rem;
+}
+
+/* Boton: 250px x 40px */
+
+div.box-2 article {
+    font-size: 1.5rem;
+}
+
+div.box-2 article h2 {
+    font-size: 4.5rem;
+}
+
+div.box-2 article p {
+    font-size: 1.5rem;
+}
+
+div.box-2 article div {
+    width: 3rem;
+    height: 4rem;
+    background-color: blueviolet;
+}

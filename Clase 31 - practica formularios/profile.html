@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body class="forms profile">
+    <section class="form-container">
+        <h2>Editar mi perfil</h2>
+        <hr>
+        <form action="" method="get">
+            <div class="profile-box_avatar">
+                <h4 class="profile-subtitle">Avatar</h4>
+                <div class="avatar"></div>
+                <div class="input_file-container">
+                    <input type="file" name="avatar" id="">
+                </div>
+            </div>
+                
+            <div class="profile-box_userData">
+                <h3>Datos de contacto</h3>
+                <div class="userData_container">
+                    <div class="form_box">
+                        <div class="input-container">
+                            <input type="email" name="email" id="" class="input-style" placeholder="Ingrese su email" value="user@mail.com" disabled>
+                            
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="name" id="" class="input-style" placeholder="Ingrese su nombre">
+                            
+                        </div>
+                        <div class="input-container">
+                            <input type="number" name="tel" id="" class="input-style" placeholder="Ingrese su telefono">
+                            
+                        </div>
+                        <div class="input-container">
+                            <input type="number" name="dni" id="" class="input-style" placeholder="Ingrese su dni">
+                            
+                        </div>
+                    </div>
+                    <div class="form_box">
+
+                        <div class="input-container">
+                            <select name="province" id="" class="input-select">
+                                <option value="" hidden selected>Elija su provincia</option>
+                                <option value="BsAs">Bs As</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="LaRioja">La rioja</option>
+                                <option value="Cordoba">Cordoba</option>
+                                <option value="Neuquen">Neuquen</option>
+                            </select>
+                            
+                        </div>
+                        <div class="input-container">
+                            <select name="city" id="" class="input-select">
+                                <option value="" hidden selected>Elija su ciudad</option>
+                                <option value="Localidad1">Localidad1</option>
+                                <option value="Localidad2">Localidad2</option>
+                                <option value="Localidad3">Localidad3</option>
+                                <option value="Localidad4">Localidad4</option>
+                                <option value="Localidad5">Localidad5</option>
+                            </select>
+                            
+                        </div>
+
+                        <div class="input-container">
+                            <input type="text" name="street" id="" class="input-style" placeholder="Ingrese su calle">
+                            
+                        </div>
+
+                        <div class="input-container">
+                            <input type="number" name="alt" id="" class="input-style" placeholder="Ingrese su altura">
+                            
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="btn-container">
+                    <button type="reset" class="btn btn-reset">Limpiar</button>
+                    <button type="submit" class="btn btn-edit">Guardar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

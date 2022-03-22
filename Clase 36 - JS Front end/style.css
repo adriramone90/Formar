@@ -1,0 +1,22 @@
+.text-danger{
+    color: red;
+}
+
+nav#menu{
+    display: none;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+nav#menu.active{
+    display: block;
+}
+
+.text-dark{
+    color:white;
+}
+
+.bg-dark{
+    background-color: rgb(59, 59, 59);
+}
